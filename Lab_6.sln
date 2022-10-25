@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", "{6AE0DF06-2339-4964-A388-02088A8E44F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDictionary", "MyDictionary\MyDictionary.csproj", "{C9AF8146-1505-44BF-A164-8B0550DD32D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AE0DF06-2339-4964-A388-02088A8E44F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE0DF06-2339-4964-A388-02088A8E44F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE0DF06-2339-4964-A388-02088A8E44F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE0DF06-2339-4964-A388-02088A8E44F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9AF8146-1505-44BF-A164-8B0550DD32D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AF8146-1505-44BF-A164-8B0550DD32D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AF8146-1505-44BF-A164-8B0550DD32D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AF8146-1505-44BF-A164-8B0550DD32D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
