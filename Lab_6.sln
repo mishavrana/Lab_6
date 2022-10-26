@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDictionary", "MyDictionary\MyDictionary.csproj", "{C9AF8146-1505-44BF-A164-8B0550DD32D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClass", "MyClass\MyClass.csproj", "{C322B48F-04FD-42F6-9D88-3EE485DD3C23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{C9AF8146-1505-44BF-A164-8B0550DD32D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9AF8146-1505-44BF-A164-8B0550DD32D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9AF8146-1505-44BF-A164-8B0550DD32D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C322B48F-04FD-42F6-9D88-3EE485DD3C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C322B48F-04FD-42F6-9D88-3EE485DD3C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C322B48F-04FD-42F6-9D88-3EE485DD3C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C322B48F-04FD-42F6-9D88-3EE485DD3C23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
