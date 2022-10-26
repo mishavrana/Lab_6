@@ -10,11 +10,26 @@ namespace Lab_6;
  * 
  */
 
-public class MyList<T>
+public sealed class MyList<T>
 {
     private T[] data;
     private int size = 0; // amount of items
     private int capacity; // amount of slots
+
+    public int Capacity
+    {
+        get { return capacity; }
+    }
+
+    public int Size
+    {
+        get { return size; }
+    }
+
+    public T[] Data
+    {
+        get { return data; }
+    }
 
     // Constructors with capacity option. By default is 8
     public MyList(int capacity = 8)
@@ -79,9 +94,9 @@ public class MyList<T>
     // Checking if the index is out of range
     private void CheckIndexOutOfRange(int index) 
     { 
-        if(index > size - 1 || index < 0) 
+        if(index > capacity - 1 || index < 0) 
         { 
-            throw new IndexOutOfRangeException(string.Format($"Index is outside the array, which size is {size}"));
+            throw new IndexOutOfRangeException(string.Format($"Index is outside the array, which size is {capacity}"));
         }
     }
 
